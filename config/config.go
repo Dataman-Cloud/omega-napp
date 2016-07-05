@@ -3,11 +3,12 @@ package config
 import (
 	"bufio"
 	"errors"
-	log "github.com/Sirupsen/logrus"
 	"os"
 	"reflect"
 	"strconv"
 	"strings"
+
+	log "github.com/Sirupsen/logrus"
 )
 
 const (

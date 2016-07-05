@@ -1,14 +1,15 @@
 package logger
 
 import (
+	"time"
+
 	//"github.com/Dataman-Cloud/omega-napp/config"
 	log "github.com/Sirupsen/logrus"
 	"github.com/gin-gonic/gin"
-	"time"
 	//"os"
 )
 
-func init() {
+func Init() {
 	//log.SetFormatter(&log.JSONFormatter{})
 	log.SetFormatter(&log.TextFormatter{
 		ForceColors:      true,

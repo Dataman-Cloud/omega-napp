@@ -2,13 +2,14 @@ package store
 
 import (
 	"fmt"
+	"sync"
+
 	"github.com/Dataman-Cloud/omega-napp/config"
 	log "github.com/Sirupsen/logrus"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	_ "github.com/mattes/migrate/driver/mysql"
 	"github.com/mattes/migrate/migrate"
-	"sync"
 )
 
 var db *gorm.DB

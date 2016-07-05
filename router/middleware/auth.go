@@ -4,14 +4,15 @@ import (
 	"crypto/md5"
 	"encoding/base64"
 	"fmt"
+	"net/http"
+	"strings"
+
 	. "github.com/Dataman-Cloud/omega-napp/config"
 	"github.com/Dataman-Cloud/omega-napp/store"
 	"github.com/Dataman-Cloud/omega-napp/util"
 	log "github.com/Sirupsen/logrus"
 	redis "github.com/garyburd/redigo/redis"
 	"github.com/gin-gonic/gin"
-	"net/http"
-	"strings"
 )
 
 func Authenticate(ctx *gin.Context) {

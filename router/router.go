@@ -1,12 +1,13 @@
 package router
 
 import (
+	"net/http"
+	"time"
+
 	"github.com/Dataman-Cloud/omega-napp/api"
 	"github.com/Dataman-Cloud/omega-napp/logger"
 	log "github.com/Sirupsen/logrus"
 	"github.com/gin-gonic/gin"
-	"net/http"
-	"time"
 )
 
 func Load(middleware ...gin.HandlerFunc) http.Handler {
