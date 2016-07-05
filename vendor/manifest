@@ -1,0 +1,111 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/Sirupsen/logrus",
+			"repository": "https://github.com/Sirupsen/logrus",
+			"revision": "f3cfb454f4c209e6668c95216c4744b8fddb2356",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/dustin/go-broadcast",
+			"repository": "https://github.com/dustin/go-broadcast",
+			"revision": "3bdf6d4a7164a50bc19d5f230e2981d87d2584f1",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/garyburd/redigo/internal",
+			"repository": "https://github.com/garyburd/redigo",
+			"revision": "b8dc90050f24c1a73a52f107f3f575be67b21b7c",
+			"branch": "master",
+			"path": "/internal",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/garyburd/redigo/redis",
+			"repository": "https://github.com/garyburd/redigo",
+			"revision": "b8dc90050f24c1a73a52f107f3f575be67b21b7c",
+			"branch": "master",
+			"path": "/redis",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/gin-gonic/contrib/ginrus",
+			"repository": "https://github.com/gin-gonic/contrib",
+			"revision": "547e518040cfb96576b507d2f26779ab9c6fc829",
+			"branch": "master",
+			"path": "/ginrus",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/gin-gonic/gin",
+			"repository": "https://github.com/gin-gonic/gin",
+			"revision": "f931d1ea80ae95a6fc739213cdd9399bd2967fb6",
+			"branch": "develop",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/golang/protobuf/proto",
+			"repository": "https://github.com/golang/protobuf",
+			"revision": "3852dcfda249c2097355a6aabb199a28d97b30df",
+			"branch": "master",
+			"path": "/proto",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/manucorporat/sse",
+			"repository": "https://github.com/manucorporat/sse",
+			"revision": "ee05b128a739a0fb76c7ebd3ae4810c1de808d6d",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/manucorporat/stats",
+			"repository": "https://github.com/manucorporat/stats",
+			"revision": "8f2d6ace262eba462e9beb552382c98be51d807b",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/mattes/migrate/driver",
+			"repository": "https://github.com/mattes/migrate",
+			"revision": "ce1b59bb819416ca67422929b1cb48bb342720b6",
+			"branch": "master",
+			"path": "/driver",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/mattes/migrate/file",
+			"repository": "https://github.com/mattes/migrate",
+			"revision": "ce1b59bb819416ca67422929b1cb48bb342720b6",
+			"branch": "master",
+			"path": "/file",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/mattes/migrate/migrate",
+			"repository": "https://github.com/mattes/migrate",
+			"revision": "ce1b59bb819416ca67422929b1cb48bb342720b6",
+			"branch": "master",
+			"path": "/migrate",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/mattes/migrate/pipe",
+			"repository": "https://github.com/mattes/migrate",
+			"revision": "ce1b59bb819416ca67422929b1cb48bb342720b6",
+			"branch": "master",
+			"path": "/pipe",
+			"notests": true
+		},
+		{
+			"importpath": "gopkg.in/go-playground/validator.v8",
+			"repository": "https://gopkg.in/go-playground/validator.v8",
+			"revision": "25f1823069d853eccffbde025dca1812fa09c14b",
+			"branch": "master",
+			"notests": true
+		}
+	]
+}
